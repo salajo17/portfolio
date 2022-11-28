@@ -1,3 +1,46 @@
 body {
-    background: black;
+    background-color: rgb(44, 50, 56);
 }
+
+#div-form  {
+    display: grid;
+    margin: 7% 30% 0% 30%;
+    background-color: rgba(17, 224, 231, 0.712);
+    height: 600px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#form {
+    margin: 70px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+input.required:active {
+    background: red;
+}
+
+.submit {
+    margin: 5% 0% 0% 30%;
+    background-color: rgb(0, 132, 255);
+    height: 30px;
+    width: 200px;
+}
+
+

@@ -4,37 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <label class="logo">DesignX</label>
-        <ul>
-            <li><a class="active" href="#" onclick="alert('sdasd')">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Feedback</a></li>
-        </ul>
-    </nav>
-    <div id="grid">
-        <div class="grid-container">
-            <h1>Introduction</h1>
-        </div>
-        <div class="grid-container">
-            <img src="zetsyFace2.png" alt="">
-        </div>
-        <div class="grid-container">
-            <h1>explanation1</h1>
-        </div>
-        <div class="grid-container">
-            <h1>explanation2</h1>
-        </div>
-    </div>
-    <script >
-        "use strict";
-    </script>
+    <title>Survey Form</title>
 
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <div id="div-form">
+        <form id="form" action="">
+            <legend>Survey Form</legend>
+            <label for="" class="labels">Name: </label>
+            <input type="text" name="Name" id="Name" placeholder="Name" required class="input"/>
+
+            <label for="" class="labels">Email: </label>
+            <input type="email" id="Email" placeholder="Email" required class="input"/>
+
+            <label for="" class="labels">Phone Number: </label>
+            <input type="tel" name="Name" id="Name" placeholder="Phone Number" required class="input"/>
+
+            <label for="" class="labels">FeedBack (Optional): </label>
+            <textarea name="FeedBack" id="FeedBack" cols="70" rows="10"></textarea>
+
+            <button type="submit" class="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
